@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Timer start */
+
+.timer {
+  background-color: #6e3aba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 84px 0;
+}
+
+.timer h2 {
+  font-size: calc(2vw + 26.5px);
+  font-weight: 700;
+  line-height: 117%;
+  color: #fff;
+}
+
+.timer .white {
+  width: 328px;
+  height: 61px;
+  padding: 20px 0px 20px 0px;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #6e3aba;
+  border: 1px solid #6e3aba;
+}
+
+.timeCards {
+  width: calc(66.4vw + 72.967px);
+  margin-top: calc(4.1vw + 4.669px);
+  margin-right: calc(18.1vw - 38.956px);
+  margin-bottom: calc(4.1vw + 4.669px);
+  margin-left: calc(15.5vw - 34.011px);
+  gap: calc(5.3vw + 12.11px);
+  display: flex;
+  justify-content: center;
+}
+
+.timeCards .timeCard {
+  width: calc(18.1vw + 19.044px);
+}
+
+.timeCard .timetitle {
+  font-family: "Chava";
+  font-size: calc(12.6vw + 12.762px);
+  font-weight: 400;
+  line-height: 107.5%;
+}
+
+.timeCard .subtitle {
+  font-family: "TTHoves-Black";
+  font-size: calc(1.9vw + 2.956px);
+  font-weight: 500;
+  line-height: 117.814815%;
+  text-align: center;
+}
+
+/* Timer end */
+
+/* About us start */
+
+.about {
+  margin-top: calc(11vw + 18.56px);
+  margin-left: calc(10.6vw - 15.8px);
+  margin-bottom: calc(11vw + 18.56px);
+}
+
+.about_us {
+  width: calc(20.2vw + 252.171px);
+  font-family: "TTHoves-Black";
+  font-size: calc(2.7vw + 24.055px);
+  font-weight: 500;
+  line-height: 118%;
+}
+
+.about_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(6.2vw + 16.796px);
+}
+
+.about1 {
+  margin-top: calc(5.1vw + 14.939px);
+}
+
+.about_img {
+  width: 110px;
+}
+
+.about1 h3 {
+  margin-top: calc(2.2vw + 11.713px);
+  width: calc(10.8vw + 287.392px);
+  font-family: "TTHoves-Black";
+  font-size: calc(0.6vw + 19.928px);
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.about2 {
+  margin-top: calc(6.2vw + 16.796px);
+  gap: calc(1.1vw + 25.856px);
+}
+
+.graduate {
+  width: calc(-8.4vw + 359.492px);
+}
+
+.graduate h3 {
+  width: calc(-14.4vw + 381.867px);
+  font-family: "TTHoves-Black";
+  font-size: calc(2.7vw + 24.055px);
+  font-weight: 700;
+  line-height: 118%;
+}
+
+.graduate span {
+  font-family: "TTHoves-Black";
+  font-size: calc(0.6vw + 13.928px);
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.digital {
+  width: calc(14.7vw + 272.89px);
+}
+
+.digital h3 {
+  font-family: "TTHoves-Black";
+  font-size: calc(2.7vw + 24.055px);
+  font-weight: 700;
+  line-height: 118%;
+}
+
+.digital span {
+  font-family: "TTHoves-Black";
+  font-size: calc(0.6vw + 13.928px);
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/* About us end */
